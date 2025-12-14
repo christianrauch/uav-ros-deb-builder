@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ${{ matrix.runner }}
+
+    env:
+      DEBIAN_FRONTEND: noninteractive
+
+    strategy:
+      matrix:
+        version:
+          - {ubuntu: noble,   ros: jazzy}
+        runner: [ubuntu-24.04, ubuntu-24.04-arm]
+
+    steps:
+      # - run: |
+      #     sudo apt update
+      #     sudo apt upgrade -y
+
+      - run: dpkg-architecture >> "$GITHUB_ENV"
+
+      - uses: jspricke/ros-deb-builder-action@main
+        with:
+          DEB_DISTRO: ${{ matrix.version.ubuntu }}
+          DEB_ARCH: ${{ env.DEB_HOST_ARCH }}
+          ROS_DISTRO: ${{ matrix.version.ros }}
+          # SKIP_CHECKOUT: true
+          # SBUILD_CONF: "$enable_network = 1;"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SQUASH_HISTORY: true
+          # PACKAGES_BRANCH: "${{ matrix.version.ubuntu }}-${{ matrix.version.ros }}-${{ env.DEB_HOST_ARCH }}-${{ matrix.version.libcamera }}-${{ matrix.bloom_branch }}"
