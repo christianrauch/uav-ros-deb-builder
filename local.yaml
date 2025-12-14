@@ -1,0 +1,18 @@
+uav_controllers:
+  ubuntu:
+  - ros-jazzy-uav-controllers
+uav_controllers:
+  ubuntu:
+  - ros-jazzy-uav-controllers
+uav_hardware:
+  ubuntu:
+  - ros-jazzy-uav-hardware
+uav_hardware:
+  ubuntu:
+  - ros-jazzy-uav-hardware
+uav_description:
+  ubuntu:
+  - ros-jazzy-uav-description
+uav_description:
+  ubuntu:
+  - ros-jazzy-uav-description

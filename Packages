@@ -1,0 +1,176 @@
+Package: ros-jazzy-uav-controllers-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2025.12.14.18.42
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-uav-controllers
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 11203
+Depends: ros-jazzy-uav-controllers (= 0-2025.12.14.18.42)
+Filename: ./ros-jazzy-uav-controllers-dbgsym_0-2025.12.14.18.42_arm64.ddeb
+Size: 10019850
+MD5sum: 716f6a1c1cd27247635499ae1c6dd66e
+SHA1: 82e51a828ff477edbbe2a3a7f338f4682607acd4
+SHA256: 11ef6f2bef15723c1e8927091c8aa3a994c1b6d693aa7ca5481cd3349451e9bf
+SHA512: 9ed310f2280e33d978de3966cbcf8754f578277306a1b0d58eabca11199a5e9c4cc2d2b300a5369f471aa6b772361a9ff6c4c960639dec27294b210e99e9401d
+Description: debug symbols for ros-jazzy-uav-controllers
+Build-Ids: 5faa6d1e9b5bc6cb235552fe8a5eec928395c899 c0fa0e24713888bc9a07b84ea0ae3280bb99e29c
+
+Package: ros-jazzy-uav-controllers-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2025.12.14.18.44
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-uav-controllers
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 11203
+Depends: ros-jazzy-uav-controllers (= 0-2025.12.14.18.44)
+Filename: ./ros-jazzy-uav-controllers-dbgsym_0-2025.12.14.18.44_arm64.ddeb
+Size: 10021854
+MD5sum: d01e3e1c4534be98be18be426ee58a6a
+SHA1: 7f5e054a8027db61b376ce351606c2d23ecac1dc
+SHA256: 1babbfe8ad7f1982b5c64ea2d25db67321693d40847be3438bbcc0a43018d763
+SHA512: 9e9fc467bb4e219a5d0430b1dee4cce32ce3c8d351a8b64e5c9fe2496b0db74467d30c4575aa2ed3625f043af012b9a632c6ac39e4e24ec97809fb40d78a001a
+Description: debug symbols for ros-jazzy-uav-controllers
+Build-Ids: 5d4d9659ed7d58d478e813fa8f9390e8337ee81e af3e6f4f48c948724c393dc684fa3df7efc9aa88
+
+Package: ros-jazzy-uav-controllers
+Architecture: arm64
+Version: 0-2025.12.14.18.42
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 1544
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libeigen3-dev, ros-jazzy-control-toolbox, ros-jazzy-controller-interface, ros-jazzy-geometry-msgs, ros-jazzy-realtime-tools, ros-jazzy-urdfdom-headers
+Filename: ./ros-jazzy-uav-controllers_0-2025.12.14.18.42_arm64.deb
+Size: 257828
+MD5sum: bc59592cb2209c1e86706f09b8f67a45
+SHA1: 18f5bc5e52bb5c4389a4d3672b438d7bdbacdc10
+SHA256: 33499d9bbe94a9b5104d5ba9a99e499a3ee451fda1cbe0835eb8f7c45b62ca2a
+SHA512: b6b5941485c3759bbc729086a7fbbe8aedf3b51d717a8fc7337d486da2be60f47741e2a55c0ece6f57e15a93d757fa5f08ffe56ff64860fbb5bb12fb03bd5462
+Description: TODO: Package description
+
+Package: ros-jazzy-uav-controllers
+Architecture: arm64
+Version: 0-2025.12.14.18.44
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 1544
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libeigen3-dev, ros-jazzy-control-toolbox, ros-jazzy-controller-interface, ros-jazzy-geometry-msgs, ros-jazzy-realtime-tools, ros-jazzy-urdfdom-headers
+Filename: ./ros-jazzy-uav-controllers_0-2025.12.14.18.44_arm64.deb
+Size: 259876
+MD5sum: 293052a074d8989399b8c556202eedbd
+SHA1: 21dc7be920f64cf028a31a9b4afca767c9e4775d
+SHA256: 8a82e65dfff927b3deee461c49e471d429a8aa2c59d015d5d45db643c197ebab
+SHA512: 1935d62537fb05731efae155a501baa70c1da94f5ac10466af382297ce2078f78b122d67211f9c0b094f0edfb0f17ee90725a69da26aab5b8923f3f5e51ed875
+Description: TODO: Package description
+
+Package: ros-jazzy-uav-description
+Architecture: arm64
+Version: 0-2025.12.14.18.49
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 51
+Depends: ros-jazzy-imu-sensor-broadcaster, ros-jazzy-robot-state-publisher, ros-jazzy-uav-hardware, ros-jazzy-xacro
+Filename: ./ros-jazzy-uav-description_0-2025.12.14.18.49_arm64.deb
+Size: 6568
+MD5sum: 2a5dcdcbd0aa8768af55af6af3b77680
+SHA1: d5467d39d78106721a89179f79e31a61120d8e83
+SHA256: 874cd6aae50400b63344f67678f5308740a1e386be2f120dcd3696d18c62f8bc
+SHA512: 0395d287ff5130c9b0882ac05f4be67299948ef4760e5e90e3426ad4fb7029300881f0a97189e6b36c774c3970cad534f282930cd36d55030eae59c2cfd591f8
+Description: TODO: Package description
+
+Package: ros-jazzy-uav-description
+Architecture: arm64
+Version: 0-2025.12.14.18.50
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 51
+Depends: ros-jazzy-imu-sensor-broadcaster, ros-jazzy-robot-state-publisher, ros-jazzy-uav-hardware, ros-jazzy-xacro
+Filename: ./ros-jazzy-uav-description_0-2025.12.14.18.50_arm64.deb
+Size: 6552
+MD5sum: 2f56d045d410a62d1e6e5dd7d46e42da
+SHA1: cb44da8b75775a55d94e323c3d0477c3e594bba5
+SHA256: cbd819d60b0f4c31029dbabfa0230cf69f781c54940b5ba473a6f6daca52d18b
+SHA512: 6bfd53dec32989464d82f6b2b93549131a89c5236fcea4c5a4ab826a3b41d9ed8668e36589c7bb84a6aa689e0a09b6c73129e35856dc767d53cc6c99f1472358
+Description: TODO: Package description
+
+Package: ros-jazzy-uav-hardware-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2025.12.14.18.46
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-uav-hardware
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 3975
+Depends: ros-jazzy-uav-hardware (= 0-2025.12.14.18.46)
+Filename: ./ros-jazzy-uav-hardware-dbgsym_0-2025.12.14.18.46_arm64.ddeb
+Size: 3506602
+MD5sum: a6420ec96e8fecd970db87994a57890e
+SHA1: 966cbc7d520976738ad0fa7b4642df7b7d9398d8
+SHA256: 22896621f70d07761d4cf8416a08d34933705c940ba6de0301beafe1d416fed9
+SHA512: 0892732c91127cae86005da2eadd811f8895fd261cbc077fd2b4696c1de799b3306dfb46013012ab61f3c378a7487c51fbe706c7f678f23dba811a5ddad7043b
+Description: debug symbols for ros-jazzy-uav-hardware
+Build-Ids: 6a168eb8f0a79f7a3d2ff0262f3f9b85235c0173 7432c8316042fdb3a2223566142513acf909edb9
+
+Package: ros-jazzy-uav-hardware-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2025.12.14.18.48
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-uav-hardware
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 3975
+Depends: ros-jazzy-uav-hardware (= 0-2025.12.14.18.48)
+Filename: ./ros-jazzy-uav-hardware-dbgsym_0-2025.12.14.18.48_arm64.ddeb
+Size: 3505842
+MD5sum: b738212a5771f9abe3674959ddb50175
+SHA1: d4ae34e1c6d04f3504c5f04bbda55b9e3a349210
+SHA256: e47e04f680eb25fa53192ce66b9a0d2d7c58dbae6a45d1cdaf7e1ba4836060fb
+SHA512: c462475d745dddfb1d01e28e9c55f553fd7050c232c413de07e2cca9e3f2992c3397caab78f3d02946d8a9191920bc6bd47ac8fa6db591c6eb8c742a905889df
+Description: debug symbols for ros-jazzy-uav-hardware
+Build-Ids: 8407f888a3c8303e60ff6bb5e61c5d9a5c139898 a5d52d5bfbdefe51a6067c8072bb7749724e7cac
+
+Package: ros-jazzy-uav-hardware
+Architecture: arm64
+Version: 0-2025.12.14.18.46
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 774
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-hardware-interface, ros-jazzy-mavros-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-realtime-tools, ros-jazzy-sensor-msgs
+Filename: ./ros-jazzy-uav-hardware_0-2025.12.14.18.46_arm64.deb
+Size: 148220
+MD5sum: 9b2cb6fd6eab654b9f2683064adb0cb2
+SHA1: 4c553480c871801966f1f05d6e23009a6a2243fc
+SHA256: 3f1c96645fcabf0172c07e419a3691730bf7180680a9e6a65b5fb1ea8d33c32d
+SHA512: 893a7d01f2856a2bee70641406efa8063b9e190097e0e2272616a6b86ef951dcd5172fa1525c8cef7068c8796bf9c94100a68d096b3fd615d1f17352bed75c98
+Description: TODO: Package description
+
+Package: ros-jazzy-uav-hardware
+Architecture: arm64
+Version: 0-2025.12.14.18.48
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 774
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-hardware-interface, ros-jazzy-mavros-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-realtime-tools, ros-jazzy-sensor-msgs
+Filename: ./ros-jazzy-uav-hardware_0-2025.12.14.18.48_arm64.deb
+Size: 148206
+MD5sum: b7d706f5665e091def61cbefce2ac4bf
+SHA1: 2b10b2b61c63ed07cfca9503f106ff058c36be3b
+SHA256: 770df0403e6d0df345195c91a2d7ce87c4e5b5b7b01784aabe5e00e3d81aa637
+SHA512: d13cb6bb3455cf46882fa37f8602cc5726f71db5fe0704747b4269b99253e54876d21160b35fd54da337be30d13a3cd9dda45bc98acce51f5ec40c3deb40b109
+Description: TODO: Package description
+
