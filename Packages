@@ -1,0 +1,88 @@
+Package: ros-jazzy-uav-controllers-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2025.12.28.11.01
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-uav-controllers
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 13297
+Depends: ros-jazzy-uav-controllers (= 0-2025.12.28.11.01)
+Filename: ./ros-jazzy-uav-controllers-dbgsym_0-2025.12.28.11.01_arm64.ddeb
+Size: 11989632
+MD5sum: 264d97b28f09cb30804c2a63fd32b40e
+SHA1: 6155807dfc0790e782fed15bd4a98151208ed9c2
+SHA256: 579785ce1adf2e7df226005018fb9dbde92bcc7d4e719538180db9ee620993af
+SHA512: d47f1af9c4c47e75d14e167a3c04ce1590ca4598875bca7babe730ff625d7ea5c9c99cb3ca45e701acc4c15c7b767ddf49d91b50d7271e8b47386f1394316ffc
+Description: debug symbols for ros-jazzy-uav-controllers
+Build-Ids: 2175e8d3aa860c6f81367cf405d7a7f1e4601e2e 445490292e69db54a6ac31ddde6aade8dcb14165 753b0dc7739565ddfe1b4343aa0b7ea6deecf3fd d6ae5e48a59e6f0158b61fd3cb40bc4fa849eb7f
+
+Package: ros-jazzy-uav-controllers
+Architecture: arm64
+Version: 0-2025.12.28.11.01
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 1942
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libeigen3-dev, ros-jazzy-control-toolbox, ros-jazzy-controller-interface, ros-jazzy-geometry-msgs, ros-jazzy-realtime-tools, ros-jazzy-urdfdom-headers
+Filename: ./ros-jazzy-uav-controllers_0-2025.12.28.11.01_arm64.deb
+Size: 312638
+MD5sum: 50416bfaf45337ef7586d92095f357a7
+SHA1: 4673985564f621ad379c4b88405011566e289064
+SHA256: 6920185ebca0b8ce870edaf2b78013b34c16866aef792ce6ff0a9360bd45c527
+SHA512: 4db52a669bd7051e10ed42d8b617b8292128dbf6ece8b474b9476aae7ef05fae49ac9c6f9551c860482b00d39024b31946fa3c8a477394dd063333587c0aa81c
+Description: TODO: Package description
+
+Package: ros-jazzy-uav-description
+Architecture: arm64
+Version: 0-2025.12.28.11.05
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 52
+Depends: ros-jazzy-controller-manager, ros-jazzy-imu-sensor-broadcaster, ros-jazzy-robot-state-publisher, ros-jazzy-uav-hardware, ros-jazzy-xacro
+Filename: ./ros-jazzy-uav-description_0-2025.12.28.11.05_arm64.deb
+Size: 6708
+MD5sum: ec0cf4df80451b086d59dae3301ed195
+SHA1: e9517fd3b4698c2be921e1f8bec04dcba1bf32c4
+SHA256: 9806cdbd283844a4eb9c9d0d07db8138ae836f214e8a051b1cc33e40a912b405
+SHA512: b43a8156ccd5b8ae57204f28250d2ba5552056adcb21d3f343e881a953c498922e073d61fc6bcaba852609d917c7c660139cb5620321b8ede66772c11e130c98
+Description: TODO: Package description
+
+Package: ros-jazzy-uav-hardware-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2025.12.28.11.03
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-uav-hardware
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 6599
+Depends: ros-jazzy-uav-hardware (= 0-2025.12.28.11.03)
+Filename: ./ros-jazzy-uav-hardware-dbgsym_0-2025.12.28.11.03_arm64.ddeb
+Size: 5763350
+MD5sum: ef11284514c63cd98872fcc4d8f19449
+SHA1: da14cc8ec9aef52b080c7f4066bc32f9047011fe
+SHA256: 7db198747b5c5d2ebd01d04690fed87ce2a8bddebc51c8831f96f621cbeb3e38
+SHA512: 40f238ae649e1612714018b471208c1c2551e02992044193ec172571476c84a7a6694045bef66a3f759e74a4b563714f71179c8997df3a98a2a46d24e6058f9f
+Description: debug symbols for ros-jazzy-uav-hardware
+Build-Ids: 58afb0103e1a0196fb2b80a10fbc961879e17a90 5db301032dc8da918b5b72d4479a70e75fa725b5 af652c01329ba5081cee04648b912cdd0b34fade
+
+Package: ros-jazzy-uav-hardware
+Architecture: arm64
+Version: 0-2025.12.28.11.03
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 1292
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-hardware-interface, ros-jazzy-mavros-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-realtime-tools, ros-jazzy-sensor-msgs
+Filename: ./ros-jazzy-uav-hardware_0-2025.12.28.11.03_arm64.deb
+Size: 209476
+MD5sum: 73b418a716bc85c82c6053b5a98a8fd5
+SHA1: 9421655f0006d2eb73640a98ca42995483c5f0ba
+SHA256: 9cdf70fc975a8a6dc4c8273a948f542a279ab32e1849e2573c3be72d43754bc3
+SHA512: fcdecde74777e47b600b1071fed9a4ae7ef44d373ec25b37c30a205e70ad9ace7f5b89725c2f13bda5f61db442752001dca7f27730825825ef908dc8277b3b95
+Description: TODO: Package description
+
