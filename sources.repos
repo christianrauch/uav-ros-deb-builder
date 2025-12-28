@@ -3,7 +3,7 @@ repositories:
     type: git
     url: https://github.com/christianrauch/uav.git
     version: main
-  uav_mujoco_ros2_control:
-    type: git
-    url: https://github.com/christianrauch/uav_mujoco_ros2_control.git
-    version: main
+  # uav_mujoco_ros2_control:
+  #   type: git
+  #   url: https://github.com/christianrauch/uav_mujoco_ros2_control.git
+  #   version: main
