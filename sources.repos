@@ -1,0 +1,5 @@
+repositories:
+  uav:
+    type: git
+    url: https://github.com/christianrauch/uav.git
+    version: d48ee8271e8f800ab2c432584b2b7eeb92635fe6
