@@ -1,0 +1,88 @@
+Package: ros-jazzy-uav-controllers-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2026.01.18.16.44
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-uav-controllers
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 17837
+Depends: ros-jazzy-uav-controllers (= 0-2026.01.18.16.44)
+Filename: ./ros-jazzy-uav-controllers-dbgsym_0-2026.01.18.16.44_arm64.ddeb
+Size: 16050392
+MD5sum: b3fb69b1bfa3dbe4b6517faaa39077c6
+SHA1: 77315cedea2e69d4de488c9f47828265af119a4e
+SHA256: 981770d6e090fcfe387a5259a88dec3bfc7c335f683d1ef9830e23e66105f36c
+SHA512: c2449b584fca05f231e449b522228949d51f46585510537c1ae907e414e8cba903a11858c88346fdbd0159dd079615f252069a9d7cb5dd693db07e1e43ea66d4
+Description: debug symbols for ros-jazzy-uav-controllers
+Build-Ids: 0bd06df84d3005b708fb419a6696afbb82345f4e 1663d29d76063f251d6015376b04ee7f8d97bc6d 30dfbf28e276f640f6e12e1ad5646e0d92cb1186 3de41496446bc744b4eafb3a8cadd43e84dc0402 4b586b76bf149c5c8efd43e7b6f0207411763b7d 7ff80d38f87a4bffefb1211c7ff6ca24c258c172 a9e232fc9ce5f64f1f9e6fd96fe79d1be99c6260 e51d42af6d524be813b3ceb84e39531ffe062689
+
+Package: ros-jazzy-uav-controllers
+Architecture: arm64
+Version: 0-2026.01.18.16.44
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 2795
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libeigen3-dev, ros-jazzy-control-toolbox, ros-jazzy-controller-interface, ros-jazzy-geometry-msgs, ros-jazzy-imu-filter-madgwick, ros-jazzy-realtime-tools, ros-jazzy-sensor-msgs, ros-jazzy-urdfdom-headers
+Filename: ./ros-jazzy-uav-controllers_0-2026.01.18.16.44_arm64.deb
+Size: 416388
+MD5sum: b889bf1117b1aa9918f15b87a84839f9
+SHA1: 2cbbfe1998866a412fddb2df51f856e725127b0f
+SHA256: 97483e9cc2842bf3ff4672261eb284f927489d33738e55c899582c4838bc20f5
+SHA512: e1b33b2748bf4369c1f59372cc12effc45852e68256239b538731431e7327f45b9f4e3b55026d54bef7e8a86110a47ebb2fe23952e18019c03d1fee76884ba97
+Description: controllers for UAV
+
+Package: ros-jazzy-uav-description
+Architecture: arm64
+Version: 0-2026.01.18.16.48
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 58
+Depends: ros-jazzy-controller-manager, ros-jazzy-imu-sensor-broadcaster, ros-jazzy-robot-state-publisher, ros-jazzy-uav-proxy, ros-jazzy-xacro
+Filename: ./ros-jazzy-uav-description_0-2026.01.18.16.48_arm64.deb
+Size: 7450
+MD5sum: 4486a45b4ec0bdd9f40ba8ca44a1dde6
+SHA1: 3dda929c1ff3e5309ce6ae302678ef9f2a9b6312
+SHA256: 5596b3ed6c1783cd2506e098765c39d55ddf86dbaba2c9c99bc144ff36f25b65
+SHA512: 143a0b34509fe996aad38e464aa581f12fc3afa8bbec2d22bff737fd918d8810ec39228e4e559b18ecd580e1915c500baaa4e9d6d63aa41fe6a2f5b528a610f5
+Description: common robot descriptions and controller configuration
+
+Package: ros-jazzy-uav-proxy-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2026.01.18.16.46
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-uav-proxy
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 6599
+Depends: ros-jazzy-uav-proxy (= 0-2026.01.18.16.46)
+Filename: ./ros-jazzy-uav-proxy-dbgsym_0-2026.01.18.16.46_arm64.ddeb
+Size: 5762494
+MD5sum: 39d21f9b22b1c5c8f9cb4c61d25d0bb5
+SHA1: ae34a224beaee85cbbf86debff38238c56acf815
+SHA256: d91a758d30ba1a28a2b08b25e7fe72e3b67c7faa6f8690093e11363d3f676ce9
+SHA512: 5251c65579c6ae01bf5c14c261c25e7a6c231707aa3385c4d59514b582722e81b1744e164d287510500b08c40913944ca1250b4384610b955ad3c0257b385e6b
+Description: debug symbols for ros-jazzy-uav-proxy
+Build-Ids: 0aa8c70546e64638b27d27ecb92310bcda391f84 b08ebeb32841cf0a5ca8e738e71a77c405bafce4 bcab3f21df2288c5288d5c18eaa50fd2a16e08c7
+
+Package: ros-jazzy-uav-proxy
+Architecture: arm64
+Version: 0-2026.01.18.16.46
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 1292
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-hardware-interface, ros-jazzy-mavros-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-realtime-tools, ros-jazzy-sensor-msgs
+Filename: ./ros-jazzy-uav-proxy_0-2026.01.18.16.46_arm64.deb
+Size: 209680
+MD5sum: 8763dab5d61c422b4cef3dc6e88f5d51
+SHA1: 6347f43aba745ae6386051d7bfee5bea5d724b3c
+SHA256: 5e1a72d36770e2ed1396c98293386a34856ef4c5435b768cafb54afdd9a77732
+SHA512: 58937018aab3c35f9eac5ce982eb7b8b2ca49c9b77efc6099a81bf3025dfc87ce1b8b564bf9b6053ad8dfefa8030aa43870a0428558ba1cfc16cd9d8544f6ead
+Description: proxy hardware interfaces to ROS topics
+
