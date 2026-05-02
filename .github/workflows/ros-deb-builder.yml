@@ -29,11 +29,12 @@ jobs:
 
       - run: dpkg-architecture >> "$GITHUB_ENV"
 
-      - uses: jspricke/ros-deb-builder-action@main
+      - uses: christian-rauch/ros-deb-builder-action@ros-testing
         with:
           DEB_DISTRO: ${{ matrix.version.ubuntu }}
           DEB_ARCH: ${{ env.DEB_HOST_ARCH }}
           ROS_DISTRO: ${{ matrix.version.ros }}
+          ROS_TESTING: true
           # SKIP_CHECKOUT: true
           # SBUILD_CONF: "$enable_network = 1;"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
