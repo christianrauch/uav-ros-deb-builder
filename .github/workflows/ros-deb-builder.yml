@@ -16,6 +16,7 @@ jobs:
       DEBIAN_FRONTEND: noninteractive
 
     strategy:
+      fail-fast: false
       matrix:
         version:
           - {ubuntu: noble,     ros: jazzy}
