@@ -1,0 +1,160 @@
+Package: ros-lyrical-uav-controllers-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2026.10.11.10.08
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-uav-controllers
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 24690
+Depends: ros-lyrical-uav-controllers (= 0-2026.10.11.10.08)
+Filename: ./ros-lyrical-uav-controllers-dbgsym_0-2026.10.11.10.08_arm64.ddeb
+Size: 19607368
+MD5sum: 586cf5d9716063c2243ffdd7878806b3
+SHA1: 9aee1ed35877280e1721b13570acfb4f46a8df0e
+SHA256: c8b3983f5e296da988f2d9bc067f37707614cdb1babcdf1781bbcb22c1f40d95
+SHA512: 2997c6bc75fedf022b3614679ef14699a5004b8424df2db6a1ec1aa51ed9aeab44d9a3f08c6ad37a08f4a5792b3a2253725e678f27a23139f52bf420e2286e1c
+Description: debug symbols for ros-lyrical-uav-controllers
+Build-Ids: 0777a6f0d64a67bd3d09369304bf09f7c8bec6b3 9b59a0da8939b613ddf70b67a04c7d1c3e8eac13 9ed927becfbe4bd3f07e662ab19176a9eec491b0 bca040389ebc4708e5c1cf885611f02cf217276c eeef89864b906611354e518f8a93b5419031b607 f24e78e6e32cd8ae1e0a863df7062cfec6c57c79 fbbe0edaf11b2800e19613034c304d1fcbe32eb1
+
+Package: ros-lyrical-uav-controllers
+Architecture: arm64
+Version: 0-2026.10.11.10.08
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 3640
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 4.5), libstdc++6 (>= 14), libeigen3-dev, ros-lyrical-control-msgs, ros-lyrical-control-toolbox, ros-lyrical-controller-interface, ros-lyrical-generate-parameter-library, ros-lyrical-geometry-msgs, ros-lyrical-imu-filter-madgwick, ros-lyrical-realtime-tools, ros-lyrical-urdfdom-headers
+Filename: ./ros-lyrical-uav-controllers_0-2026.10.11.10.08_arm64.deb
+Size: 602294
+MD5sum: 0d0ba7974b1021671ada4c38d313b271
+SHA1: b0033e4b43f3fa72cdb13507c143962d2ba55602
+SHA256: aabf41bc2a3937b9f1dada05877b36660dafe4c97a61004a5c6093261ae861b4
+SHA512: 9a3db6c8f011e185701c37a49f1b16f0510f69f0719bdc63dfee87cad4c011209759b918587acc57f3e4da97664bf0de22e602f6f605ba6960dad13742041cb4
+Description: controllers for UAV
+
+Package: ros-lyrical-uav-description
+Architecture: arm64
+Version: 0-2026.10.11.10.13
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 80
+Depends: ros-lyrical-controller-manager, ros-lyrical-forward-command-controller, ros-lyrical-imu-sensor-broadcaster, ros-lyrical-joint-state-broadcaster, ros-lyrical-magnetometer-broadcaster, ros-lyrical-mujoco-ros2-control, ros-lyrical-pose-broadcaster, ros-lyrical-robot-state-publisher, ros-lyrical-ros2launch, ros-lyrical-state-interfaces-broadcaster, ros-lyrical-uav-controllers, ros-lyrical-uav-drivers, ros-lyrical-uav-mode-manager, ros-lyrical-uav-proxy, ros-lyrical-xacro
+Filename: ./ros-lyrical-uav-description_0-2026.10.11.10.13_arm64.deb
+Size: 10790
+MD5sum: efaf132b312004f9c8634ae7cbc8884d
+SHA1: 57a439e02c675cdb515cafdde732fa7733844e9e
+SHA256: 92f9a47490d919ea0ca999929c0deff48bbe9cdb7dddc224e7bfc97a2621aee6
+SHA512: b9c598f6dfe9912a4970313353ceb8c6df7acb785b5069deef6f40bbd0eacc57842db6bf39c7d688e626c8cb76092e4c007ef5de27584830de0abfda7e9ece8d
+Description: common robot descriptions and controller configuration
+
+Package: ros-lyrical-uav-drivers-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2026.10.11.10.10
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-uav-drivers
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 3420
+Depends: ros-lyrical-uav-drivers (= 0-2026.10.11.10.10)
+Filename: ./ros-lyrical-uav-drivers-dbgsym_0-2026.10.11.10.10_arm64.ddeb
+Size: 2948420
+MD5sum: 06d00c76f4618dff98120ba9526017af
+SHA1: 66908c821dc83b8b9be286d9291bbaea12b27bb1
+SHA256: ee638ef965f6b45fdc6b15db0b7271718b277838d24fda25653303e0a3018f76
+SHA512: 9d14210fa29c4267023002605f7d97ca4c2e283251aa16d1687841f4ce2df6b8149350a12576b736c0905f38bdc5d69a5fb1142d8ab9e54b55c79d2b66c6947e
+Description: debug symbols for ros-lyrical-uav-drivers
+Build-Ids: 023490d9fe19cfb142f7c481f4a9d27da9b70d0f 6c7d5b2538cec15fc528fa84af860fb5afd96a8e 7941694324ea4f58807bce78d35bf67e5651ccb4 f2e93006c0558305d45fec6a0c4ccb7eee598487
+
+Package: ros-lyrical-uav-drivers
+Architecture: arm64
+Version: 0-2026.10.11.10.10
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 596
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 4.5), libi2c0 (>= 4.0), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), libeigen3-dev, libi2c-dev, libyaml-cpp-dev, ros-lyrical-hardware-interface, ros-lyrical-pluginlib, ros-lyrical-rclcpp
+Filename: ./ros-lyrical-uav-drivers_0-2026.10.11.10.10_arm64.deb
+Size: 129710
+MD5sum: 69d48ad38302edb62a176462af4b3114
+SHA1: 44e0d18ef9b9d9689fb6e80607af265b5511eff3
+SHA256: fd551e355441596bef32c85c19c845232ca28da7dd0b8be16d416a82f108b921
+SHA512: 001e276dea22a8a11b0767f45ec7becb378ed757740375872048a5c84a1f2b4dbd18c023b12a96167546cc7685830bfe34f87363d2f1b63e0e812a9470c14324
+Description: hardware drivers
+
+Package: ros-lyrical-uav-mode-manager-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2026.10.11.10.11
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-uav-mode-manager
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 4823
+Depends: ros-lyrical-uav-mode-manager (= 0-2026.10.11.10.11)
+Filename: ./ros-lyrical-uav-mode-manager-dbgsym_0-2026.10.11.10.11_arm64.ddeb
+Size: 3457578
+MD5sum: 9186cc0533aeb167c39b0a2fcf1eff4b
+SHA1: c869e6fdd09e801d36f4d2cecf997cd8e0d9b8de
+SHA256: 3a23902736acff76f683eb0595791901a7350d9a3215a1493784121dd7f503d3
+SHA512: 66593790cacd42d9648d782a85b13623b840f15da5e7c7edba8fd77d85d1cb03604a81e89537c239b891b3fc4d75ca636f8c08beffec71f8fc6cd6b79171ce82
+Description: debug symbols for ros-lyrical-uav-mode-manager
+Build-Ids: e3453e32edca5360313a9ea3eb67389d0e508d4b e66d4c3a1f0ee882f185aac8dc33d55b8c63f7f7
+
+Package: ros-lyrical-uav-mode-manager
+Architecture: arm64
+Version: 0-2026.10.11.10.11
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 902
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-lyrical-control-msgs, ros-lyrical-controller-manager-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components
+Filename: ./ros-lyrical-uav-mode-manager_0-2026.10.11.10.11_arm64.deb
+Size: 159732
+MD5sum: ec153501e1b4f37aaee1f6a2bb11b68a
+SHA1: 916e7d4f0a8918c5e44a49ed6ea9293cd5ef12c3
+SHA256: ef04fa4f1d01084d0481a00d6c25c759c777a01ee025eedf9a79a63035c7eabf
+SHA512: 54782082cdf161990648e371d9732c7ed9b24e64320dfcb5e304cf23a5847a1d3c67cbe104d149d330fef5b46e31247d4ecc993239b9de7b2bee4b8ef6d7961d
+Description: switch flight modes via RC channel input
+
+Package: ros-lyrical-uav-proxy-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2026.10.11.10.12
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-uav-proxy
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 9459
+Depends: ros-lyrical-uav-proxy (= 0-2026.10.11.10.12)
+Filename: ./ros-lyrical-uav-proxy-dbgsym_0-2026.10.11.10.12_arm64.ddeb
+Size: 6990770
+MD5sum: 9d7ba2e906bfd2e214beed150d501e53
+SHA1: 1f99fd473b0d4171c0d022d7e24ed3dedba88c50
+SHA256: 92b0073bc26318b186a5895f1bf6cb0aeae642e15ea27ef94c343bdd82aa842d
+SHA512: 117f5f1a2f57816e58b5e24020b6bb8ba0da1b6ba529dc7a1a6529bc86029b8391721217a367ec0ebd297ccd843573e39bb16406a9cdf380660c3a78efe9f0d1
+Description: debug symbols for ros-lyrical-uav-proxy
+Build-Ids: 2fcad365057a69de96454df0dbbc9696534ce14f 42c13723d1c17dd1d44b1dfab4f66c8adb2a7a96 4c2dc602f187aee9b83b780177217cfd7e1e3219 80820651a78c5c8a32386352caf2859013f3e565
+
+Package: ros-lyrical-uav-proxy
+Architecture: arm64
+Version: 0-2026.10.11.10.12
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 1621
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-lyrical-hardware-interface, ros-lyrical-mavros-msgs, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-realtime-tools, ros-lyrical-sensor-msgs
+Filename: ./ros-lyrical-uav-proxy_0-2026.10.11.10.12_arm64.deb
+Size: 220970
+MD5sum: ba00373fea1c62c3a551270f66d98f6b
+SHA1: 2edd6b04d1db809c4e7a76048dadcdcb0d1f0e02
+SHA256: a5a9b2b37d1523e1a78a03dd0b605151dc934077fa9abbe498b4cfc81f84c1ea
+SHA512: 27281e30abf8ecc49d7f02f443e4f9ee1550f57f3e9b709bfb86e7cb148ba4d86d29f71524d77cd6ff941f6d56682596a6fe32053e729f642655a7446e21f1c9
+Description: proxy hardware interfaces to ROS topics
+
