@@ -1,0 +1,6 @@
+uav_autotune:
+  ubuntu:
+  - ros-lyrical-uav-autotune
+uav_autotune_node:
+  ubuntu:
+  - ros-lyrical-uav-autotune-node

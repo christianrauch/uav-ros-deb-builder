@@ -1,0 +1,72 @@
+Package: ros-lyrical-uav-autotune-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2026.11.14.18.19
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-uav-autotune
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 1632
+Depends: ros-lyrical-uav-autotune (= 0-2026.11.14.18.19)
+Filename: ./ros-lyrical-uav-autotune-dbgsym_0-2026.11.14.18.19_arm64.ddeb
+Size: 1562180
+MD5sum: 49cc8182427a48c4002be0f3432ad6a2
+SHA1: 24eddda2304d152484e8d3f8012361f500de32cd
+SHA256: bc7f137a788303d1512629936d297e694baf56f692adf4549c0930a1df55d70c
+SHA512: 5beefaa30526dac0a0d8d38261beea652dc59e4c7d2933d5cd94079d7ce23842df7bd4201aacc78811d1a4b36db260ffeb796b6ac8a2eb4308a0d03d950f8228
+Description: debug symbols for ros-lyrical-uav-autotune
+Build-Ids: 33bfac1156cc1bedd6d50ed3b4df391812c2b172 4367313d3a4bf23a75b96b0dd9b71806e6bd53f6 8e1d49b2b983e1c4ba7340c01148f667b9f5f44c c85d771cac18e7e1ff55c6c7700857f11fe59730 d8799883ab2fbce3231a9220d0236c9be0a1f9d2
+
+Package: ros-lyrical-uav-autotune-node-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2026.11.14.18.20
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-uav-autotune-node
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 4687
+Depends: ros-lyrical-uav-autotune-node (= 0-2026.11.14.18.20)
+Filename: ./ros-lyrical-uav-autotune-node-dbgsym_0-2026.11.14.18.20_arm64.ddeb
+Size: 3313256
+MD5sum: 22b7082517c5a28a8eaa102d457337bb
+SHA1: 698ff95b26c2d3e16e2db23e0d0590d0c336c782
+SHA256: e6e960e8a7f7901cee74ca12b75371abda6740bf554d8170f16294ec6396cfa6
+SHA512: 9deaeaa519802904e37b5a09eb1dcd89e93d0c647bdfaa5741530bfcc78946d78a9209c7b82e2e00fdab2fb50bc69f8b7de573311f8b881ff12cf51f4c9a7695
+Description: debug symbols for ros-lyrical-uav-autotune-node
+Build-Ids: 1f634191d56c99abdb358b546883bcc0650fccc3 7d29ece75231017391fde5e6b628ec07618b43ec
+
+Package: ros-lyrical-uav-autotune-node
+Architecture: arm64
+Version: 0-2026.11.14.18.20
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 901
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-lyrical-geometry-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-std-msgs, ros-lyrical-uav-autotune
+Filename: ./ros-lyrical-uav-autotune-node_0-2026.11.14.18.20_arm64.deb
+Size: 153846
+MD5sum: feae843e9d8e761a4999e79bc4f50e19
+SHA1: 230a12e843c0b78ddfc241db52d489721816bb70
+SHA256: 4a085f967dcb2191e5845cda1b99f187524e4609b1b638534a347e4c0371280a
+SHA512: 0d8a354112d82f0f940e9753efd3b1cff428c4fade14ee351dfd542882fa5726621970834b059a7dbf230429b770f4233dc91b355a3ed088de145c19d58c2df6
+Description: TODO: Package description
+
+Package: ros-lyrical-uav-autotune
+Architecture: arm64
+Version: 0-2026.11.14.18.19
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 384
+Depends: libc6 (>= 2.43), libeigen3-dev
+Filename: ./ros-lyrical-uav-autotune_0-2026.11.14.18.19_arm64.deb
+Size: 20984
+MD5sum: 072d51427fcdc7e44867b9c119c3946e
+SHA1: 521ba3ddec88ca7fbdde594fc5fc22199d37e67e
+SHA256: e90fc2b09b14d17fa4e3ec2fa1f94a2ab8d7d791f77be9e9bc22abf453ad4f23
+SHA512: 39c5e16a24731788afec91d16f99933e1950d5b9c5390eed8d3a9acd196881a5bc97f66a770fbbafa91b0daf443a246b439c1957be72e2d41ce59c1bca7f850e
+Description: library for autotuning
+
