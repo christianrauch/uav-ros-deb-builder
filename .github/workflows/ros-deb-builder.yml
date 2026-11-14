@@ -7,6 +7,12 @@ on:
     branches: [ "main" ]
 
   workflow_dispatch:
+    inputs:
+      uav_branch:
+        description: Branch of christianrauch/uav to build
+        required: true
+        default: main
+        type: string
 
 jobs:
   build:
@@ -14,6 +20,7 @@ jobs:
 
     env:
       DEBIAN_FRONTEND: noninteractive
+      UAV_BRANCH: ${{ inputs.uav_branch || 'main' }}
 
     strategy:
       matrix:
@@ -22,7 +29,32 @@ jobs:
         runner: [ubuntu-24.04, ubuntu-24.04-arm]
 
     steps:
+      - uses: actions/checkout@v6
+        with:
+          path: repo
+          fetch-tags: true
+          fetch-depth: 0
+          filter: tree:0
+
       - run: dpkg-architecture >> "$GITHUB_ENV"
+
+      - name: Set source branch
+        run: |
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+
+          source_file = Path("repo/sources.repos")
+          source = source_file.read_text()
+          current = "    version: main\n"
+          if source.count(current) != 1:
+              raise RuntimeError("Expected exactly one 'version: main' in sources.repos")
+
+          branch = os.environ["UAV_BRANCH"]
+          source_file.write_text(
+              source.replace(current, f"    version: '{branch.replace(chr(39), chr(39) * 2)}'\n")
+          )
+          PY
 
       - uses: jspricke/ros-deb-builder-action@main
         with:
@@ -31,3 +63,5 @@ jobs:
           ROS_DISTRO: ${{ matrix.version.ros }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
+          REPOS_FILE: sources.repos
+          SKIP_CHECKOUT: true
